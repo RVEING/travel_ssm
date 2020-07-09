@@ -1,0 +1,722 @@
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	body {
+		font-family: "微软雅黑";
+		background: #F7F7F7;
+	}
+	
+	li {
+		list-style: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	.ms_banner {
+		width: 100%;
+		height: auto;
+	}
+	
+	.ms_banner>img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.ms_box {
+		width: 1200px;
+		height: auto;
+		margin: 0 auto;
+		/*text-align: center;*/
+		margin-top: 10px;
+	}
+	/*搜索*/
+	
+	.ms_inputs {
+		margin: auto;
+		width: 500px;
+		height: 35px;
+		position: relative;
+	}
+	/*当前站输入框*/
+	
+	.ms_dangqian {
+		width: 115px;
+		height: 35px;
+		line-height: 35px;
+		text-align: left;
+		font-size: 12px;
+		border: 1px solid #CFCFCF;
+		box-sizing: border-box;
+		color: #3E3A39;
+	}
+	
+	.ms_dq {
+		float: left;
+		margin-right: 4px;
+		margin-left: 5px;
+		transform: translateY(2px);
+	}
+	
+	.ms_adress {
+		width: 115px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 35px;
+		line-height: 35px;
+		outline: none;
+		color: #33D6DE;
+		font-size: 16px;
+		border: 1px solid #CFCFCF;
+		box-sizing: border-box;
+		padding-left: 45px;
+	}
+	
+	.xiala {
+		width: 60px;
+		height: 35px;
+		line-height: 35px;
+		position: absolute;
+		left: 135px;
+		top: 0px;
+		font-size: 12px;
+		outline: none;
+		color: #A4A5A5;
+		border: 1px solid #CFCFCF;
+		box-sizing: border-box;
+	}
+	
+	.ms_search {
+		width: 215px;
+		position: absolute;
+		top: 0px;
+		left: 195px;
+		height: 35px;
+		line-height: 35px;
+		outline: none;
+		color: #A4A5A5;
+		font-size: 12px;
+		border: 1px solid #CFCFCF;
+		box-sizing: border-box;
+	}
+	/*搜索按钮*/
+	
+	.ms_btn {
+		width: 70px;
+		position: absolute;
+		top: 0px;
+		left: 430px;
+		height: 35px;
+		line-height: 35px;
+		outline: none;
+		color: white;
+		font-size: 14px;
+		border: 1px solid #CFCFCF;
+		box-sizing: border-box;
+		background: #65BCD0;
+	}
+	
+	.jingdian {
+		margin-top: 30px;
+		margin-left: 40px;
+		width: 200px;
+		text-align: left;
+		height: 30px;
+		line-height: 30px;
+		border-bottom: 1px solid #231815;
+		box-sizing: border-box;
+		font-size: 18px;
+		color: #262626;
+	}
+	
+	.jingdian>p>span {
+		color: 12px;
+		font-size: 12px;
+		color: #717071;
+		margin-left: 5px;
+	}
+	
+	.jing_box {
+		width: 1200px;
+		height: 552px;
+		margin: 20px auto;
+	}
+	
+	.jing_box>li {
+		height: 552px;
+	}
+	
+	.jing_box>li:nth-of-type(1) {
+		width: 380px;
+		float: left;
+	}
+	
+	.jing_box>li:nth-of-type(2) {
+		width: 440px;
+		float: left;
+		background: #EFEFEF;
+		position: relative;
+	}
+	
+	.jing_box>li:nth-of-type(3) {
+		width: 380px;
+		float: right;
+	}
+	
+	.jing_box>li:nth-of-type(1)>img,
+	.jing_box>li:nth-of-type(3)>img {
+		width: 100%;
+		height: 552px;
+	}
+	/*景点特色中间文字*/
+	
+	.jing_text1 {
+		text-align: center;
+		width: 100px;
+		height: 60px;
+		margin: 100px auto 80px auto;
+	}
+	
+	.jing_text1>p:nth-of-type(1) {
+		border-bottom: 1.5px solid #7E7D7D;
+		box-sizing: border-box;
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	
+	.jing_text1>p:nth-of-type(2) {
+		width: 100%;
+		font-size: 12px;
+		color: #9FA0A0;
+	}
+	
+	.jing_text2 {
+		padding: 0px 33px 0px 30px;
+		box-sizing: border-box;
+		text-align: left;
+		text-indent: 2rem;
+		font-size: 16px;
+		line-height: 25px;
+		color: #3E3A39;
+	}
+	
+	.jing_ding {
+		width: 230px;
+		height: 40px;
+		line-height: 40px;
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		background: #DCDDDD;
+		font-size: 18px;
+		color: #231815;
+		text-align: center;
+	}
+	
+	.jing_ding1 {
+		width: 33px;
+		height: 33px;
+		background: #FFA412;
+		line-height: 33px;
+		position: absolute;
+		top: 0px;
+		left: 17px;
+		color: white;
+		text-align: center;
+	}
+	/*岛屿特色——迎接*/
+	
+	.daoyu_yj {
+		width: 1130px;
+		height: 345px;
+		border: 1px solid gray;
+		margin: 20px auto 30px auto !important;
+	}
+	
+	.daoyu_L {
+		width: 517px;
+		height: 345px;
+	}
+	
+	.daoL1 {
+		float: left;
+	}
+	
+	.daoyu_L>img {
+		width: 100%;
+		height: 345px;
+	}
+	
+	.daoyu_R {
+		width: 610px;
+		height: 100%;
+	}
+	
+	.daoR1 {
+		float: right;
+	}
+	
+	.daoyu_text1 {
+		text-align: center;
+		width: 100px;
+		height: 60px;
+		margin: 60px auto 50px auto;
+	}
+	
+	.daoyu_text1>p:nth-of-type(1) {
+		border-bottom: 1.5px solid #7E7D7D;
+		box-sizing: border-box;
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	
+	.daoyu_text1>p:nth-of-type(2) {
+		width: 100%;
+		font-size: 12px;
+		color: #9FA0A0;
+	}
+	
+	.daoyu_text2 {
+		padding: 0px 33px 0px 30px;
+		box-sizing: border-box;
+		text-align: left;
+		text-indent: 2rem;
+		font-size: 12px;
+		line-height: 25px;
+		color: #595757;
+	}
+	
+	.daoR2 {
+		float: right;
+	}
+	
+	.daoL2 {
+		float: left;
+	}
+	/*立即定付*/
+	/*景点推荐的图片盒子*/
+	/*页面变化 调整宽度*/
+	
+	.ms_jingdianbox {
+		margin: 30px auto;
+		width: 1130px;
+		/*width: 1120px;*/
+		height: 320px;
+		/*	border: 1px solid gray;*/
+		box-sizing: border-box;
+		text-align: left;
+	}
+	
+	.jingdain_pic {
+		margin: auto;
+		text-align: center;
+		width: 100%;
+		height: 251px;
+	}
+	
+	.jingdain_pic>li {
+		list-style: none;
+		display: inline-block;
+		width: 30%;
+		text-align: center;
+		margin: auto;
+		height: 100%;
+		position: relative;
+		/*number*/
+	}
+	
+	.msding {
+		width: 50px;
+		height: 30px;
+		line-height: 30px;
+		position: absolute;
+		left: 10px;
+		bottom: 10px;
+		color: #D58512;
+		background: url(../icon/ms-01.png)no-repeat;
+		color: white;
+		font-size: 14px;
+	}
+	
+	.jingdain_pic>li>p {
+		padding: 10px;
+		border: 1px solid darkgrey;
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+	}
+	
+	.jingdain_pic>li>p>img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.jingdain_pic>li:nth-of-type(1),
+	.sub4_text>li:nth-of-type(1) {
+		float: left;
+	}
+	
+	.jingdain_pic>li:nth-of-type(3),
+	.sub4_text>li:nth-of-type(3) {
+		float: right;
+	}
+	/*路线推荐文字box*/
+	
+	.sub4_text {
+		margin: auto;
+		text-align: center;
+		width: 100%;
+		height: 54px;
+	}
+	
+	.sub4_text>li {
+		list-style: none;
+		display: inline-block;
+		width: 29%;
+		text-align: left;
+		margin: auto;
+		height: 100%;
+		font-size: 14px;
+		padding: 0px 10px;
+		/*border: 1px solid darkgrey;*/
+		box-sizing: border-box;
+		position: relative;
+		line-height: 25px;
+	}
+	
+	.jdtext1 {
+		/*border: 1px solid darkcyan;*/
+		margin-top: 0px;
+		color: #322725;
+		font-size: 13px;
+	}
+	
+	.jdmoney {
+		position: absolute;
+		right: 35px;
+		top: 27px;
+	}
+	
+	.jdmoney>span:nth-of-type(1) {
+		font-size: 1.4rem;
+		color: #EC7928;
+	}
+	
+	.jdmoney>span:nth-of-type(2) {
+		font-size: 12px;
+		color: #EC7928;
+	}
+	/*景点推荐的图片盒子结束*/
+	/*评论开始*/
+	
+	.pinglun_box {
+		width: 1130px;
+		height: 116px;
+		border: 1px solid #C5C5C6;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		display: -webkit-box;
+		overflow: hidden;
+	}
+	
+	.ping_L_box {
+		width: 990px;
+		display: -webkit-box;
+		height: 116px;
+		/*background: #EBCCCC;*/
+		-webkit-box-orient: horizontal;
+		position: relative;
+	}
+	/*右边的确定按钮*/
+	
+	.ping_R_box {
+		-webkit-box-orient: horizontal;
+		/*background: #C9E2B3;*/
+		width: 140px;
+		line-height: 116px;
+		text-align: center;
+	}
+	
+	.ping_R_box>input {
+		outline: none;
+		width: 83px;
+		height: 35px;
+		background: #67C3D9;
+		color: white;
+		font-size: 18px;
+	}
+	
+	.Lbox1 {
+		width: 180px;
+		height: 64px;
+		text-align: center;
+		line-height: 64px;
+		border-right: 2px solid #D6D6D6;
+		transform: translateY(25px);
+	}
+	
+	.Lbox2 {
+		width: 153px;
+		height: 64px;
+		text-align: center;
+		line-height: 64px;
+		border-right: 2px solid #D6D6D6;
+		transform: translateY(25px);
+	}
+	/*<!--最右边的 类似进度条-->*/
+	
+	.Lbox3 {
+		width: 342px;
+		height: 64px;
+		transform: translateY(25px);
+		/*border: 1px solid sandybrown;
+	box-sizing: border-box;*/
+	}
+	
+	.bai {
+		display: inline-block;
+		font-size: 1.8rem;
+		color: #F29600;
+		margin-left: 5px;
+	}
+	
+	.LboxP {
+		font-size: 12px;
+		color: #898989;
+	}
+	/*进度条 第一个*/
+	
+	.Lbox3_1 {
+		height: 33.3%;
+		width: 100%;
+		position: relative;
+	}
+	
+	.Lbox3P {
+		width: 67px;
+		height: 20px;
+		padding-left: 25px;
+		padding-top: 2px;
+		box-sizing: border-box;
+	}
+	/*.jin:进度条*/
+	
+	.jin1,
+	.jin2,
+	.jin3 {
+		width: 247px;
+		height: 14px;
+		border: 1px solid #A4A4A4;
+		box-sizing: border-box;
+		position: absolute;
+		top: 3px;
+		left: 70px;
+		border-radius: 3px;
+	}
+	
+	.jin1>div {
+		width: 230px;
+		height: 14px;
+		box-sizing: border-box;
+		position: absolute;
+		top: -1px;
+		left: -1px;
+		border-radius: 3px;
+		background: #F29600;
+	}
+	
+	.jin2>div {
+		width: 225px;
+		height: 14px;
+		box-sizing: border-box;
+		position: absolute;
+		top: -1px;
+		left: -1px;
+		border-radius: 3px;
+		background: #F29600;
+	}
+	
+	.jin3>div {
+		width: 220px;
+		height: 14px;
+		box-sizing: border-box;
+		position: absolute;
+		top: -1px;
+		left: -1px;
+		border-radius: 3px;
+		background: #F29600;
+	}
+	
+	.Lbox3_1>input:nth-of-type(1) {
+		-webkit-box-orient: horizontal;
+		width: 16px;
+		height: 16px;
+		border: 1px solid #A4A4A4;
+		box-sizing: border-box;
+		position: absolute;
+		top: 3px;
+		left: 325px;
+		border-radius: 3px;
+	}
+	/*评论内容开始*/
+	
+	.plcontent_box {
+		width: 1130px;
+		height: auto;
+		/*border: 1px solid black;*/
+		box-sizing: border-box;
+		display: -webkit-box;
+		margin: auto;
+		margin-bottom: 30px;
+		border-bottom-color: rgb(204, 204, 204);
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		background-color: rgb(255, 255, 255)
+	}
+	.plcontent_box:last-child{
+		border: none;
+	}
+	
+	.plcontent_box>.plcontent_L {
+		width: 118px;
+		height: auto;
+		-webkit-box-orient: vertical;
+	}
+	
+	.plcontent_box>.plcontent_C {
+		width: 878px;
+		height: auto;
+		-webkit-box-orient: vertical;
+		position: relative;
+	}
+	
+	.plcontent_box>.plcontent_R {
+		width: 132px;
+		height: auto;
+		-webkit-box-orient: vertical;
+		text-align: center;
+	}
+	/*头像*/
+	
+	.PLheader {
+		width: 65px;
+		height: 65px;
+		border-radius: 50%;
+		border: 1px solid groove;
+		margin: 7px auto 7px auto;
+	}
+	
+	.PLheader>img {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+	}
+	
+	.plcontent_L>p {
+		width: 100%;
+		font-size: 16px;
+		height: auto;
+		text-align: center;
+		color: #3A3A3A;
+	}
+	/*
+ 中间文字
+ *
+ */
+	
+	.plcontentC_nav {
+		width: 878px;
+		height: auto;
+		/*border: 1px solid darkgreen;
+	box-sizing: border-box;*/
+		display: -webkit-box;
+		background: #E5E5E5;
+		position: relative;
+	}
+	
+	.plcontentC_nav>div:nth-of-type(1) {
+		width: 74px;
+		height: auto;
+		border-right: 1px solid #FCFCFC;
+		box-sizing: border-box;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: right;
+		padding-right: 8px;
+		color: #FC681F;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		box-sizing: border-box;
+	}
+	
+	.plcontentC_nav>div:nth-of-type(2) {
+		width: 32px;
+		height: auto;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+	
+	.plcontentC_nav>div:nth-of-type(2)>img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.nav_title {
+		width: 700px;
+		font-size: 14px;
+		margin-left: 30px;
+		/*margin-top: 6px;*/
+	}
+	
+	.plcontentC_text {
+		display: inline-block;
+		padding-left: 47px;
+		padding-top: 30px;
+		box-sizing: border-box;
+		height: auto;
+		text-align: left;
+		position: relative;
+		font-size: 12px;
+		padding-bottom: 20px;
+		line-height: 18px;
+	}
+	
+	.plcontentC_text>div {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		font-size: 12px;
+		color: #898989;
+	}
+	/*跟团游 97%*/
+	
+	.plcontent_R>p:nth-of-type(1) {
+		font-size: 16px;
+		color: #898989;
+		padding-top: 8px;
+		box-sizing: border-box;
+	}
+	
+	.plcontent_R>p:nth-of-type(2) {
+		font-size: 22px;
+		color: #FC681F;
+		padding-top: 30px;
+		box-sizing: border-box;
+	}
+	
+	.hr {
+		width: 900px;
+		color: #E8E8E8;
+	}

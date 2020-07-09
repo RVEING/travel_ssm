@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rveing.mapper.Scenic_spotMapper">
+  <resultMap id="BaseResultMap" type="com.rveing.pojo.Scenic_spot">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="sname" jdbcType="VARCHAR" property="sname" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="businessDate" jdbcType="VARCHAR" property="businessDate" />
+    <result column="price" jdbcType="DOUBLE" property="price" />
+    <result column="number" jdbcType="INTEGER" property="number" />
+    <result column="phone_number" jdbcType="INTEGER" property="phone_number" />
+    <result column="traffic" jdbcType="VARCHAR" property="traffic" />
+    <result column="w" jdbcType="DOUBLE" property="w" />
+    <result column="cnt" jdbcType="INTEGER" property="cnt" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, sname, summary, address, businessDate, price, number, phone_number, traffic, 
+    w, cnt
+  </sql>
+  <select id="selectByExample" parameterType="com.rveing.pojo.Scenic_spotExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from scenic_spot
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from scenic_spot
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from scenic_spot
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.rveing.pojo.Scenic_spot" useGeneratedKeys="true">
+    insert into scenic_spot (sname, summary, address, 
+      businessDate, price, number, 
+      phone_number, traffic, w, 
+      cnt)
+    values (#{sname,jdbcType=VARCHAR}, #{summary,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, 
+      #{businessDate,jdbcType=VARCHAR}, #{price,jdbcType=DOUBLE}, #{number,jdbcType=INTEGER}, 
+      #{phone_number,jdbcType=INTEGER}, #{traffic,jdbcType=VARCHAR}, #{w,jdbcType=DOUBLE}, 
+      #{cnt,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.rveing.pojo.Scenic_spot" useGeneratedKeys="true">
+    insert into scenic_spot
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="sname != null">
+        sname,
+      </if>
+      <if test="summary != null">
+        summary,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="businessDate != null">
+        businessDate,
+      </if>
+      <if test="price != null">
+        price,
+      </if>
+      <if test="number != null">
+        number,
+      </if>
+      <if test="phone_number != null">
+        phone_number,
+      </if>
+      <if test="traffic != null">
+        traffic,
+      </if>
+      <if test="w != null">
+        w,
+      </if>
+      <if test="cnt != null">
+        cnt,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="sname != null">
+        #{sname,jdbcType=VARCHAR},
+      </if>
+      <if test="summary != null">
+        #{summary,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="businessDate != null">
+        #{businessDate,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        #{price,jdbcType=DOUBLE},
+      </if>
+      <if test="number != null">
+        #{number,jdbcType=INTEGER},
+      </if>
+      <if test="phone_number != null">
+        #{phone_number,jdbcType=INTEGER},
+      </if>
+      <if test="traffic != null">
+        #{traffic,jdbcType=VARCHAR},
+      </if>
+      <if test="w != null">
+        #{w,jdbcType=DOUBLE},
+      </if>
+      <if test="cnt != null">
+        #{cnt,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.rveing.pojo.Scenic_spot">
+    update scenic_spot
+    <set>
+      <if test="sname != null">
+        sname = #{sname,jdbcType=VARCHAR},
+      </if>
+      <if test="summary != null">
+        summary = #{summary,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="businessDate != null">
+        businessDate = #{businessDate,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        price = #{price,jdbcType=DOUBLE},
+      </if>
+      <if test="number != null">
+        number = #{number,jdbcType=INTEGER},
+      </if>
+      <if test="phone_number != null">
+        phone_number = #{phone_number,jdbcType=INTEGER},
+      </if>
+      <if test="traffic != null">
+        traffic = #{traffic,jdbcType=VARCHAR},
+      </if>
+      <if test="w != null">
+        w = #{w,jdbcType=DOUBLE},
+      </if>
+      <if test="cnt != null">
+        cnt = #{cnt,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.rveing.pojo.Scenic_spot">
+    update scenic_spot
+    set sname = #{sname,jdbcType=VARCHAR},
+      summary = #{summary,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      businessDate = #{businessDate,jdbcType=VARCHAR},
+      price = #{price,jdbcType=DOUBLE},
+      number = #{number,jdbcType=INTEGER},
+      phone_number = #{phone_number,jdbcType=INTEGER},
+      traffic = #{traffic,jdbcType=VARCHAR},
+      w = #{w,jdbcType=DOUBLE},
+      cnt = #{cnt,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,293 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.imgs{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+/**/
+.textBox{
+	width:150px;
+	height:50px;
+	margin-left: -730px;
+}
+.text{
+	font-weight: bold;
+	font-size: 14px;
+	color: #251817;
+	margin-bottom: 10px;
+}
+.text1{
+	font-size: 13px;
+	letter-spacing: 3px;
+	color: #24201d;
+}
+.xian{
+	width: 60px;
+	height: 2px;
+	margin-left: -730px;
+	margin-top: -3px;
+	background: #9bd3e5;
+}
+.liucheng{
+	margin: 30px 0px;
+	width: 58%;
+	height: auto;
+}
+.tianxie{
+	margin-left: -650px;
+	font-weight: bold;
+	color: #524545;
+	margin-bottom:  18px;
+}
+.txBox{
+	width: 500px;
+	height: 200px;
+}
+.neirong{
+	margin-left: -130px;
+}
+.lx{
+	margin-right: 20px;
+	font-size: 14px;
+}
+.gr{
+	margin-right: 20px;
+	border: 1px solid gray;
+	width: 30px;
+	height: 30px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	
+}
+.gs{
+	border: 1px solid gray;
+	width: 30px;
+	height: 30px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+/**/
+.xingming{
+	margin-top: 20px;
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+}
+.tupian{
+	
+	float: left;
+	/*margin-left: -55px;*/
+}
+.tupian>img{
+	width: 12px;
+	height: 12px;
+}
+.xm>span{
+	font-size: 14px;
+	margin-left: -70px;
+	margin-right: 50px;
+}
+.xm>input{
+	width: 260px;
+	height: 35px;
+	box-sizing: border-box;
+	outline: none;
+}
+/**/
+.tianshu{
+	margin-top: 20px;
+	width: 300px;
+	height: 30px;
+}
+.ts>.wy{
+	font-size: 14px;
+	margin-left: -142px;
+	margin-right: 50px;
+}
+.ts>input:first-of-type{
+	width: 168px;
+	height: 35px;
+	margin-left: -30px;
+	padding-left: 39px;
+	box-sizing: border-box;
+	outline: none;
+	margin-right: 10px;
+}
+
+.ts>input:last-of-type{
+	margin-left: 30px;
+}
+.ts>.zj{
+	display: inline-block;
+	height: 35px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a8a8a8;
+	transform: translate(6px,-4px);
+}
+
+.td>.wy{
+	font-size: 14px;
+	margin-left: -152px;
+	margin-right: 50px;
+}
+.td1>.wy1{
+	font-size: 14px;
+	margin-left: -152px;
+	margin-right: 50px;
+}
+.td>input:first-of-type{
+	width: 168px;
+	height: 35px;
+	margin-left: -30px;
+	padding-left: 37px;
+	box-sizing: border-box;
+	outline: none;
+	margin-right: 10px;
+}
+.td>input:last-of-type{
+	width: 100px;
+	height: 35px;
+	margin-left: -30px;
+	padding-left: 18px;
+	box-sizing: border-box;
+	outline: none;
+	margin-right: 10px;
+}
+.td>input:last-of-type{
+	margin-left: 16px;
+}
+
+.td1>input:last-of-type{
+	width:168px;
+	height: 35px;
+	margin-left: -30px;
+	padding-left: 37px;
+	box-sizing: border-box;
+	outline: none;
+	margin-right: 10px;
+}
+.td1>input:last-of-type{
+	margin-left: 16px;
+}
+.td>.zj{
+	height: 35px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a8a8a8;
+	transform: translateY(10px);
+}
+/*需求*/
+.tianxieq{
+	margin-left: -650px;
+	font-weight: bold;
+	color: #524545;
+	margin-bottom:  20px;
+}
+.xianz{
+	width: 60%;
+	height: 2px;
+	background: #e3e3e3;
+	margin-bottom: 40px;
+}
+.input_one{
+	margin-left: -18px;
+	padding: 0px 0px 0px 18px;
+	box-sizing: border-box;
+}
+.tupianone{
+	margin-left: -57px;
+	
+}
+.tupianer{
+	margin-left: -74px;
+}
+.input_two{
+	margin-left: -23px;
+	padding: 0px 0px 0px 18px;
+	box-sizing: border-box;
+}
+.sjh{
+	margin-left: -79px !important;
+}
+.dzyx{
+	margin-left: -93px !important;
+}
+.input_threr{
+	margin-left: -23px;
+	padding: 0px 0px 0px 18px;
+	box-sizing: border-box;
+}
+.tupiansan{
+	margin-left: -82px;
+}
+.tupiansi{
+	margin-left: -70px;
+}
+.tupianwu{
+	margin-left: -75px;
+}
+.cfd{
+	margin-left: -82px !important;
+}
+.mdd{
+	margin-left: -82px !important;
+}
+.cfrq{
+	margin-left: -96px !important;
+}
+.inputsi{
+	margin-left: -28px;
+}
+.inputwu{
+	margin-left: -28px;
+}
+.inputliu,.inputwu,.inputsi{
+	margin-left: -30px;
+	padding: 0px 0px 0px 35px;
+	box-sizing: border-box;
+}
+.tianshuone{
+	margin-left: 117px;
+}
+.tianshuer{
+	margin-left: 168px;
+}
+.tianshusan{
+	margin-left: 38px;
+}
+.ysinput{
+	margin-left: -31px !important;
+}
+.qtsmtext{
+	outline: none;
+	width: 450px;
+	box-sizing: border-box;
+	height: 100px;
+	/*resize: none;*/
+	overflow-x: hidden;
+	padding-left: 2em;
+	transform: translateX(32px);
+}
+.qtsm{
+	display: inline-block;
+	transform: translateY(25px);
+	margin-left: -500px;
+}
+.tjddbtn{
+	background: #035279;
+	width: 150px;
+	height: 30px;
+	color: white;
+	outline: none;
+	border: none;
+	margin-top: 10px;
+	box-sizing: border-box;
+	transform: translateX(-118px);
+}

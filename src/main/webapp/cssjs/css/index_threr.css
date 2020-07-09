@@ -1,0 +1,166 @@
+@media only screen and (min-width: 1280px) and (max-width: 1499px) {
+	/*.tupian>img{
+		width: 270px !important;
+		height: 95px  !important;
+	}*/
+	/*.tupian{
+		transform: translateY(-150px);
+	}
+	.lanren{
+		transform: translateY(-190px);
+	}
+	.text,.text1{
+		transform: translateY(-190px);
+	}*/
+	.text{
+		transform: translateX(150px);
+	}
+	.text1{
+		transform: translateX(55px);
+	}
+}
+.boxx{
+	margin-top: 800px !important;
+	/*transform: scale(1.3);*/
+	/*width: 1920px;*/
+	/*height: 1124px;*/
+	margin-bottom: 50px;
+	box-sizing: border-box;
+	position: relative;
+	/*position: absolute;*/
+	/*top: 50%;*/
+	/*left: 50%;*/
+	/*transform: translate(-34%, 15%);*/
+}
+
+.tupian {
+	width: 500px;
+	height: auto;
+}
+
+.tupian>img {
+	width: 248px;
+	height: 74px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	box-sizing: border-box;
+	/*margin-left: 505px;*/
+}
+
+.lanren {
+	width: 1196px;
+	overflow: hidden;
+	/*margin-top: 50px;*/
+	transform: translateX(-16px);
+	box-sizing: border-box;
+/*	margin-bottom: 134px;*/
+}
+
+.lanren ul li {
+	width: 395px;
+	height: 250px;
+	float: left;
+	margin: 0px 2.5px 0px 0px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+/*.lanren ul li img {
+	width: 290px;
+	height: 204px;
+}*/
+
+.lanren ul li:nth-of-type(7) {
+	margin-left: -1px;
+}
+
+.lanren ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+.lanren .txt {
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	color: white;
+	font-family: "微软雅黑";
+	background: url(../img/1px.png) repeat;
+}
+
+.lanren .txt h3 {
+	font-size: 20px;
+	font-weight: 300px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+}
+
+.lanren .txt h3 {
+	font-size: 28px;
+	font-weight: 300px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+}
+
+.lanren .txt p {
+	font-size: 16px;
+	text-align: center;
+}
+
+.text {
+	position: absolute;
+	top: 60%;
+	right: 22%;
+	/*transform: translate(100px,100px);*/
+	width: 296px;
+	height: 206px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.text h3 {
+	font-size: 28px;
+	transform: translateY(-18px);
+	font-family: "方正清刻本悦宋简体";
+	color: #000000 !important;
+	font-weight: 300px;
+}
+.text p{
+	
+	width: 100%;
+	height: 1.2em;
+	overflow: hidden;
+}
+.text p:first-of-type{
+	transform: translateY(-10px);
+}
+.text1 p:first-of-type{
+	transform: translateY(-10px);
+}
+.text1 p{
+	width: 100%;
+	height: 1.2em;
+	overflow: hidden;
+}
+.text1 {
+	position: absolute;
+	top: 82%;
+	right: 43%;
+	width: 296px;
+	height: 206px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.text1 h3 {
+	transform: translateY(-18px);
+	font-size: 28px;
+	font-family: "方正清刻本悦宋简体";
+	color: #000000 !important;
+	font-weight: 300px;
+}

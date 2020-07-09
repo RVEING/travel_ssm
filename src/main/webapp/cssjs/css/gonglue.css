@@ -1,0 +1,303 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "微软雅黑";
+}
+
+ul {
+	list-style: none;
+}
+
+.imgs {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.gong_box{
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+}
+.textBox {
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	margin-left: 15px;
+}
+
+.text {
+	font-size: 16px;
+	color: #251817;
+	margin-bottom: 0px;
+}
+
+.text1 {
+	font-size: 13px;
+	color: #24201d;
+}
+
+.xian {
+	width: 50px;
+	height: 2px;
+	margin-left: 65px;
+	margin-top: -3px;
+	background: #9bd3e5;
+}
+
+.gl_box {
+	margin: auto;
+	width: 1200px;
+	height: auto;
+	box-sizing: border-box;
+}
+
+.gl_sub1 {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	height: 713px;
+}
+
+.sub1_L {
+	width: 580px;
+	height: auto;
+	border: 1px solid #E3E4E4;
+	box-sizing: border-box;
+	height: 713px;
+	float: left;
+}
+
+.sub1_L_pic {
+	margin-top: 7px;
+	width: 566px;
+	height: auto;
+}
+
+.sub1_L_pic>img {
+	width: 100%;
+}
+
+.sub1_R {
+	width: 580px;
+	border: 1px solid #E3E4E4;
+	box-sizing: border-box;
+	float: right;
+	padding-top: 7px;
+	height: 713px;
+}
+
+.sub1_R_pic {
+	width: 562px;
+	height: 698px;
+}
+
+.sub1_R_pic>img {
+	width: 100%;
+	height: 100%;
+}
+
+.sub1_text1 {
+	margin: 35px 20px;
+}
+
+.sub1_text1>.p1 {
+	letter-spacing: 6px;
+	color: #717071;
+	font-size: 1.8rem;
+}
+
+.sub1_text1>.p2 {
+	letter-spacing: 6px;
+	color: #231815;
+	font-size: 1.8rem;
+	margin: 20px auto;
+}
+
+.sub1_text1>.p3 {
+	/*letter-spacing: 1.5px;*/
+	text-align: left;
+	margin-top: 10px;
+	color: #717071;
+	text-indent: 2rem;
+	font-size: 14px;
+}
+
+
+/*第二板块*/
+
+.gl_sub2 {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	height: 387px;
+}
+
+.sub2_L {
+	width: 580px;
+	padding: 7px;
+	border: 1px solid #E3E4E4;
+	box-sizing: border-box;
+	height: 387px;
+	float: left;
+}
+
+.sub2_R_pic,
+.sub2_R_pic>img {
+	width: 100%;
+	height: 100%;
+}
+
+.sub2_R {
+	width: 580px;
+	padding: 7px;
+	box-sizing: border-box;
+	height: 387px;
+	float: right;
+}
+
+.sub2_text1 {
+	text-align: left;
+}
+
+.title_all {
+	color: #52B8D0;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	background: url(../icon/gl_icon-01_03.jpg) no-repeat left;
+	padding-left: 8px;
+}
+
+.p22 {
+	color: #322725;
+	margin-top: 25px;
+	font-size: 16px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #E3E4E4;
+	text-align: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.sub2_text1>.p3 {
+	color: #717071;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	/*letter-spacing: 2px;*/
+}
+
+.gl_sub3 {
+	margin-top: 50px;
+	border-top: 1px solid #E3E4E4;
+}
+
+.title_food {
+	margin-left: 8px;
+	text-align: left;
+}
+
+.lei {
+	display: inline-block;
+	font-size: 12px;
+	width: 70px !important;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid darkgrey;
+	margin-left: 35px;
+	color: #737373;
+	font-weight: normal;
+	border-radius: 10px;
+}
+
+.mei {
+	color: #F6B74F !important;
+	border: 1px solid #F6B74F !important;
+}
+
+.sub3_text1 {
+	text-align: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.sub3_text1>.p3 {
+	color: #3E3A39;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.sub3_pic {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	height: 243px;
+}
+
+.sub3_pic>li {
+	list-style: none;
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	height: 100%;
+}
+
+.sub3_pic>li>img {
+	width: 100%;
+	height: auto;
+}
+
+.sub3_pic>li:nth-of-type(1),
+.sub4_text>li:nth-of-type(1) {
+	float: left;
+}
+
+.sub3_pic>li:nth-of-type(3),
+.sub4_text>li:nth-of-type(3) {
+	float: right;
+}
+
+.sub4_text {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	height: 114px;
+	transform: translateY(-4px);
+}
+
+.sub4_text>li {
+	list-style: none;
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	font-size: 1.2rem;
+	border: 1px solid #A0A0A0;
+	box-sizing: border-box;
+}
+
+.p_1 {
+	font-size: 1.2rem;
+	color: #3E3A39;
+	margin-top: 30px;
+}
+
+.p_2 {
+	font-size: 1.1rem;
+	color: #3E3A39;
+	margin-top: 20px;
+}

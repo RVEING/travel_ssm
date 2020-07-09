@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: "微软雅黑";
+}
+span{
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+}
+.imgs {
+	margin-bottom: 10px;
+}
+
+
+/*搜索*/
+
+.ms_inputs {
+	margin: auto;
+	width: 500px;
+	height: 35px;
+	position: relative;
+}
+
+
+.ms_dangqian {
+	width: 115px;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+	font-size: 12px;
+	border: 1px solid #CFCFCF;
+	box-sizing: border-box;
+	color: #3E3A39;
+}
+
+.ms_dq {
+	float: left;
+	margin-right: 4px;
+	margin-left: 5px;
+	transform: translateY(2px);
+}
+.ms_adress{
+	width: 115px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 35px;
+	line-height: 35px;
+	outline: none;
+	color: #33D6DE;
+	font-size: 16px;
+	border: 1px solid #CFCFCF;
+	box-sizing: border-box;
+	padding-left: 45px;
+
+}
+
+.xiala {
+	width: 60px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	left: 135px;
+	top: 0px;
+	font-size: 12px;
+	outline: none;
+	color: #A4A5A5;
+	border: 1px solid #CFCFCF;
+	box-sizing: border-box;
+}
+
+.ms_search {
+	width: 214px;
+	position: absolute;
+	top: 0px;
+	left: 195px;
+	height: 35px;
+	line-height: 35px;
+	outline: none;
+	color: #A4A5A5;
+	font-size: 12px;
+	border: 1px solid #CFCFCF;
+	box-sizing: border-box;
+}
+
+.ms_btn {
+	width: 70px;
+	position: absolute;
+	top: 0px;
+	left: 430px;
+	height: 35px;
+	line-height: 35px;
+	outline: none;
+	color: white;
+	font-size: 14px;
+	border: 1px solid #CFCFCF;
+	box-sizing: border-box;
+	background: #65BCD0;
+}
+/*线路介绍*/
+.gengtuan {
+	width: 87%;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	margin-top: 20px;
+	margin: auto;
+	border-bottom: 1px solid #C0C0C0;
+	box-sizing: border-box;
+}
+
+.gengtuan>p {
+	color: #231815;
+	margin-left: 40px;
+	width: 80px;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+.ts {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	transform: translateX(126px);
+	margin-top: 30px;
+	border-bottom: 1px solid #4e4c4a;
+	margin-bottom: 20px;
+}
+
+.ts_one {
+	font-size: 18px;
+}
+
+.md {
+	color: gray;
+	transform: translateY(3px);
+}
+/*线路*/
+.xianluBox{
+	width: 1100px;
+	height: auto;
+	/*background: aquamarine;*/
+	margin: auto;
+	margin-bottom: 50px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+/*左*/
+.xlLeft{
+	-webkit-box-flex: 1;
+	width: 150px;
+	height: 250px;
+	line-height: 30px;
+	text-align: center;
+}
+.xlLeft li{
+	width: 50px;
+	height:auto;
+	margin: auto;
+	background: #dbdcdc;
+	margin-top: 10px;
+}
+
+/*中*/
+.xlcontent{
+	-webkit-box-flex: 1;
+	width: 950px;
+	height: auto;
+	border: 1px solid gainsboro;
+	box-sizing: border-box;
+}
+.active{
+	background: #ea6000 !important;
+}

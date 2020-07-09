@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*背景*/
+@media only screen and (min-width: 1280px) and (max-width: 1499px) {
+	.box_bj>img{
+		height: 515.87px !important;
+	}
+	.box_jg_ul{
+		transform: translateY(-70px) !important;
+	}
+	.lispic{
+		height: 200px !important;
+	}
+	.moban{
+		height: 200px !important;
+	}
+	.box_jg_ul>li:nth-of-type(4),
+	.box_jg_ul>li:nth-of-type(5),
+	.box_jg_ul>li:nth-of-type(6){
+		margin-top: -18px !important;
+	}
+}
+
+.rm_box{
+	width: 100%;
+	/*width: 100%;*/
+	box-sizing: border-box;
+	height: 600px;
+	/*background: hotpink;*/
+	margin:  0 auto;
+	background: url(../img/bjtp1.jpg) no-repeat;
+	transform: translateY(780px);
+}
+.box_bj{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+/*.box_bj>img{
+	width: 100%;
+	height: 300px;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}*/
+.bjdd{
+	width: 1300px;
+	height: 200px;
+}
+.bjdd>img{
+	width: 1240px;
+	height: 200;
+	margin-top: 30px;
+}
+.box_bj> .box_jg{
+	width: 1240px;
+	height: 550px;
+	/*border: 1px solid sandybrown;*/
+	margin: auto;
+	position: absolute;
+	top: 200px;
+	/*left: 10%;*/
+	display: block;
+	box-sizing: border-box;
+}
+.box_jg_ul{
+	width: 100%;
+	padding-left: 58px;
+	height: 450px;
+}
+.box_jg_ul>li{
+	width: 410px;
+	height: 300px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	float: left;
+}
+.box_jg_ul>li:nth-of-type(4),
+.box_jg_ul>li:nth-of-type(5),
+.box_jg_ul>li:nth-of-type(6){
+	margin-top: 0px;
+}
+
+/*九宫格图片样式*/
+.lispic{
+	display: inline-block;
+	width: 100%;
+	height: 255px;
+	position: relative;
+}
+.lispic>img{
+	width: 100%;
+	height: 120%;
+}
+/*moban*/
+.moban{
+	width: 100%;
+	height: 240px !important;
+	padding-top: 60px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5) !important;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+
+	
+}
+.title1{
+	font-weight: bold;
+	/*border: 1px solid gold;*/
+	color: white;
+	font-size: 20px;
+	padding-bottom: 20px;
+	margin: 0px 6% 20px 6%;
+	box-sizing: border-box;
+	border-bottom: 1px solid white;
+}
+
+.box_jg_ul>li>a{
+	color: white;
+	line-height: 2em;
+}
+.jianjie{
+	padding: 0px 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+
